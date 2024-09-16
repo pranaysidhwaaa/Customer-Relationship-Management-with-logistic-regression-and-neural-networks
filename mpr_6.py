@@ -237,8 +237,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Assuming you have already executed the code provided in the question to prepare the data and train the Logistic Regression model
-
 # Create a DataFrame for the test data
 df_test = pd.DataFrame(X_test, columns=df.columns[:-1])
 df_test['Churn'] = y_test
